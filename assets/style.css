@@ -1,0 +1,73 @@
+body {
+  background: rgb(0,31,63);
+  background: linear-gradient(148deg, rgba(0,31,63,1) 0%, rgba(0,116,217,1) 50%, rgba(127,219,255,1) 75%);
+  min-height:100vh;
+  background-attachment: fixed;
+}
+
+.top-nav,
+.bottom-nav {
+  background: #001f3fc3;
+}
+
+nav a {
+  color: rgba(57, 255, 20);
+}
+
+.fa-bars {
+  color: rgba(57, 255, 20);
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0px 0px 12px 0px rgba(1,0,41,0.31);
+
+}
+
+.project-card {
+  background: rgb(0,31,63);
+  color: white;
+}
+
+.project-card p {
+  font-size: 16px;
+}
+
+hr {
+  background-color: white;
+}
+
+.portfolio-nav {
+  background: none;
+  text-decoration: underline;
+}
+
+.about-card {
+  height: 60vh;
+  color: #FFFFFF;
+  /* background-color: #000; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-section {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 100;
+  background: none;
+}
+
+#about-img {
+  height: 250px;
+  width: 250px;
+  left: 13.5%;
+  top: 1%;
+}
+
+#about-body {
+  bottom: 0;
+}
