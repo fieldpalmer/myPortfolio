@@ -1,7 +1,7 @@
 body {
   background: rgb(0,31,63);
   background: linear-gradient(148deg, rgba(0,31,63,1) 0%, rgba(0,116,217,1) 50%, rgba(127,219,255,1) 75%);
-  min-height:100vh;
+  height:100vh;
   background-attachment: fixed;
 }
 
@@ -20,6 +20,11 @@ nav a {
 
 .nav-item {
   font-weight: bold;
+}
+
+.flex-row {
+  height: 29vh;
+  background-color: white;
 }
 
 .card {
