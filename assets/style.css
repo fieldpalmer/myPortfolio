@@ -1,13 +1,41 @@
-body {
+html {
+  height: 100vh;
+
+}
+
+#homeSidebar,
+.phoneView {
   background: rgb(0,31,63);
   background: linear-gradient(148deg, rgba(0,31,63,1) 0%, rgba(0,116,217,1) 50%, rgba(127,219,255,1) 75%);
-  height:100vh;
   background-attachment: fixed;
 }
 
+#homeContent {
+  background-image: url("./images/binary-1695475_1920.jpg");
+  background-position: absolute;
+  background-size: fill;
+}
+
+.homeFeature {
+  height: 33%;
+}
+
+#homeFront {
+  background-color: rgba(0,31,63,0.95);
+}
+
+#homeBack {
+  background-color: rgba(0,116,217,0.75);
+}
+
+#homeDesign {
+  background-color: rgba(127,219,255,0.5);
+}
+
+
 .top-nav,
 .bottom-nav {
-  background: #001f3fc3;
+  background: rgba(0,31,63,1);
 }
 
 nav a {
@@ -22,14 +50,8 @@ nav a {
   font-weight: bold;
 }
 
-.flex-row {
-  height: 29vh;
-  background-color: white;
-}
-
 .card {
   box-shadow: 0px 0px 12px 0px rgba(1,0,41,0.31);
-
 }
 
 .project-card {
