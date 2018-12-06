@@ -23,172 +23,264 @@
       </div>
     </nav>
     
-    <main class="phoneView container-fluid p-4 mb-4">
-
-      <div class="container-fluid text-white" id="portfolioWelcome">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center">Recent Projects</h1>
-            <hr>
-            <!-- <nav class="nav nav-pills nav-fill" id="portfolio-nav">
-              <a class="nav-item nav-link px-0" href="#front-end"><p>Front-End</p></a> 
-              <a class="nav-item nav-link px-0" href="#back-end"><p>Back-End</p></a> 
-              <a class="nav-item nav-link px-0" href="#product-mgmt"><p>Product Mgmt</p></a>
-            </nav> -->
-          </div>  
-        </div>   
-      </div>
-
-      <div class="container mb-5" >
-        <div class="row">
-          <div class="col-sm-12">
-
-            <div class="card project-card" id="projectCard7">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/mobile-mechanic.png">
-              </div>
-              <div class="card-body">
-                <h5>Mobile Mechanic™</h5>  
-                <p class="lead">Using Node.js, Handlebars, Materialize, MySQL, Cheerio, PassportJS, and Express, our team created a new app to bring automotive services to users.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/Copper_Skull_Association"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="http://mobile-mechanics.herokuapp.com/"><p>website</p></a> 
-                </nav>
-              </div>
-            </div>
-            
-            <hr>
-
-            <div class="card project-card" id="projectCard1">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/donde-app-login-screenshot.png">
-              </div>
-              <div class="card-body">
-                <h5>DONDE</h5>  
-                <p class="lead">Using Vue.js, Firebase, Bootstrap, and Ingenuity, our team created a geoservices app targeted at at-risk communities during natural disasters.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="https://github.com/lantanios/Group_Project"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://donde1.herokuapp.com/"><p>website</p></a> 
-                </nav>
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="card project-card" id="projectCard2">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/giphy-universe.png">
-              </div>
-              <div class="card-body">
-                <h5>GIF Galaxy </h5>  
-                <p class="lead">Using HTML, CSS, Bootstrap, Ajax, and the Giphy API, this product allows you to view and save a collection of your favorite gifs.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="#"><p>website</p></a> 
-                </nav>
-              </div>
-            </div>
-
-            <hr>
+    <main class="container-fluid mb-4">
+      <div class="row">
+        <div class="d-none d-md-block col-md-4 sidebar">
+          <div class="row text-white">
+            <div class="col-sm-12 text-center">
+              <img src="../assets/images/bitmojiPizza.png" class="img-fluid m-4" id="portfolioProfPic">
+            </div>  
+          </div> 
+          
+          <hr>
   
-            <div class="card project-card" id="projectCard7">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/node-mysql-store.png">
-              </div>
-              <div class="card-body">
-                <h5>Node-MySql eCommerce</h5>  
-                <p class="lead">Command Line Application for eCommerce and inventory management. Technologies used include MySQL and Node.js.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/node-mysql-store/"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="#"><p>website</p></a> 
-                </nav>
-              </div>
+          <div class="container-fluid" >
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card" id="aboutTextCard">
+                  <div class="card-body">
+                    <p class="lead">
+                      This collection of work includes homework assignments, group projects, and will soon display my own personal projects.  
+                    </p>
+                    <hr>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <a type="button" data-toggle="collapse" data-target="#collapseLanguages"><i class="fa fa-caret-down"></i>&nbsp;&nbsp;Technologies Featured</a>
+                        <div class="collapse" id="collapseLanguages">
+                          <hr>
+                          <div class="row">
+                            <div class="col-6">
+                              <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Handlebars</li>
+                                <li>AJAX</li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <ul>
+                                <li>jQuery</li>
+                                <li>MySQL</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>React <span class="small">(soon)</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
             </div>
+          </div>
+          <hr>
+      
+        </div>
+        <div class="col-sm-12 col-lg-8 mainContent" id="portfolioContent">
+          <h1 class="text-center text-white">Recent Projects</h1>
 
-            <hr>
-  
-            <div class="card project-card" id="projectCard7">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/matchMaker.png">
+          <hr>
+          
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/mobile-mechanic.png">
+                </div>
               </div>
-              <div class="card-body">
-                <h5>MatchMaker</h5>  
-                <p class="lead">A matchmaking app based on a simple compatibility algorithm. New lovers can thank Node.js, Express, HTML, and Bootstrap.  </p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/FriendFinder"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://pacific-everglades-35475.herokuapp.com/"><p>website</p></a> 
-                </nav>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Mobile Mechanic™</h5>  
+                  <p class="lead">Using Node.js, Handlebars, Materialize, MySQL, Cheerio, PassportJS, and Express, our team created a new app to bring automotive services to users.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/Copper_Skull_Association"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="http://mobile-mechanics.herokuapp.com/"><p>website</p></a> 
+                  </nav>
+                </div>
               </div>
             </div>
+          </div>
+          
+          <hr>
 
-            <hr>
-  
-            <div class="card project-card" id="projectCard3">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/trivia-screenshot.png">
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/donde-app-login-screenshot.png">
+                </div>
               </div>
-              <div class="card-body">
-                <h5>Geography Bee</h5>  
-                <p class="lead">Thanks to HTML, CSS, Timers, & jQuery, users can test their internation geography knowledge.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
-                </nav>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>DONDE</h5>  
+                  <p class="lead">Using Vue.js, Firebase, Bootstrap, and Ingenuity, our team created a geoservices app targeted at at-risk communities during natural disasters.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="https://github.com/lantanios/Group_Project"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://donde1.herokuapp.com/"><p>website</p></a> 
+                  </nav>
+                </div>
               </div>
             </div>
+          </div>
 
-            <hr>
-  
-            <div class="card project-card" id="projectCard4">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/crystalCollectorScreenGrab.png">
-              </div>
-              <div class="card-body">
-                <h5>Get'chur Gems</h5>  
-                <p class="lead">Thanks to HTML, CSS, and jQuery, this game allows users to use math and memory to collect a specific value of crystals.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
-                </nav>
-              </div>
-            </div>
+          <hr>
 
-            <hr>
-  
-            <div class="card project-card" id="projectCard5">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/trainSchedule-home.png">
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                    <img class="img img-fluid" src="../assets/images/giphy-universe.png">
+                  </div>
               </div>
-              <div class="card-body">
-                <h5>Train Scheduler</h5>  
-                <p class="lead">Using HTML, CSS, Bootstrap, Firebase, and jQuery, this app provides the same functionality you'd find at Gare du Nord</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
-                </nav>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>GIF Galaxy </h5>  
+                  <p class="lead">Using HTML, CSS, Bootstrap, Ajax, and the Giphy API, this product allows you to view and save a collection of your favorite gifs.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="#"><p>website</p></a> 
+                  </nav>
+                </div>
               </div>
             </div>
+          </div>
 
-            <hr>
-  
-            <div class="card project-card" id="projectCard6">
-              <div class="card-img-top">
-                <img class="img img-fluid" src="../assets/images/hangmanGameScreengrab.png">
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/node-mysql-store.png">
+                </div>
               </div>
-              <div class="card-body">
-                <h5>Hangman</h5>  
-                <p class="lead">A classic game! The category is English words derived from Arabic. Players can thank basic HTML, CSS, and jQuery for all the fun.</p>
-                <nav class="nav nav-pills nav-fill portfolio-nav">
-                  <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
-                  <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/Word-Guess-Game/"><p>website</p></a> 
-                </nav>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Node-MySql eCommerce</h5>  
+                  <p class="lead">Command Line Application for eCommerce and inventory management. Technologies used include MySQL and Node.js.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/node-mysql-store/"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="#"><p>website</p></a> 
+                  </nav>
+                </div>
               </div>
             </div>
-  
+          </div>
+
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                    <img class="img img-fluid" src="../assets/images/matchMaker.png">
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>MatchMaker</h5>  
+                  <p class="lead">A matchmaking app based on a simple compatibility algorithm. New lovers can thank Node.js, Express, HTML, and Bootstrap.  </p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="https://github.com/fieldpalmer/FriendFinder"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://pacific-everglades-35475.herokuapp.com/"><p>website</p></a> 
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/trivia-screenshot.png">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Geography Bee</h5>  
+                  <p class="lead">Thanks to HTML, CSS, Timers, & jQuery, users can test their internation geography knowledge.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/crystalCollectorScreenGrab.png">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Get'chur Gems</h5>  
+                  <p class="lead">Thanks to HTML, CSS, and jQuery, this game allows users to use math and memory to collect a specific value of crystals.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/trainSchedule-home.png">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Train Scheduler</h5>  
+                  <p class="lead">Using HTML, CSS, Bootstrap, Firebase, and jQuery, this app provides the same functionality you'd find at Gare du Nord</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/TriviaGame/"><p>website</p></a> 
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="card project-card">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="card-img-top">
+                  <img class="img img-fluid" src="../assets/images/hangmanGameScreengrab.png">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="card-body">
+                  <h5>Hangman</h5>  
+                  <p class="lead">A classic game! The category is English words derived from Arabic. Players can thank basic HTML, CSS, and jQuery for all the fun.</p>
+                  <nav class="nav nav-pills nav-fill portfolio-nav">
+                    <a class="nav-item nav-link p-0" href="#"><p>github</p></a> 
+                    <a class="nav-item nav-link p-0" href="https://fieldpalmer.github.io/Word-Guess-Game/"><p>website</p></a> 
+                  </nav>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </main>
 
     <footer class="footer fixed-bottom mt-5">

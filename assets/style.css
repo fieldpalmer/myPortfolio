@@ -3,12 +3,11 @@ html {
 
 }
 
-#homeSidebar,
-.phoneView {
+.sidebar {
   background: rgb(0,31,63);
   background: linear-gradient(148deg, rgba(0,31,63,1) 0%, rgba(0,116,217,1) 50%, rgba(127,219,255,1) 75%);
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #sidebarPic {
@@ -16,14 +15,25 @@ html {
   margin: 20px;
 }
 
-#homeContent {
+.mainContent {
   background-image: url("./images/binary-1695475_1920.jpg");
   background-position: absolute;
-  background-size: fill;
+  background-attachment: fixed;
+  /* background-size: fill; */
 }
 
 .homeFeature {
-  height: 32%;
+  height: 33.33%;
+}
+
+.aboutFeature {
+  height: 25%;
+  color: white;
+  background: rgba(26, 34, 41, 0.79);
+}
+
+.aboutFeature li {
+  font-size: 14px;
 }
 
 .display-2 {
@@ -64,6 +74,12 @@ nav a {
   box-shadow: 0px 0px 12px 0px rgba(1,0,41,0.31);
 }
 
+#portfolioContent {
+  max-height: 90vh;
+  overflow-y: scroll;
+  background-image: rgba(0, 31, 63, 0.913);
+}
+
 .project-card {
   background: rgb(0,31,63);
   color: white;
@@ -83,7 +99,7 @@ hr {
 }
 
 .about-card {
-  height: 60vh;
+  height: 50vh;
   color: #FFFFFF;
   /* background-color: #000; */
   margin: 0;
@@ -98,13 +114,7 @@ hr {
   background: none;
 }
 
-#about-img {
-  height: 250px;
-  width: 250px;
-  left: 13.5%;
-  top: 1%;
-}
-
 #about-body {
   bottom: 0;
 }
+
