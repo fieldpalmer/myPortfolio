@@ -18,9 +18,9 @@
         <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar navbar-collapse nav" id="navbarNav">
-      <a class="nav-item nav-link" href="../index.html">Home</a>
-      <a class="nav-item nav-link" href="./about.html">About</a>
-      <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="./pages/about.html">About</a>
+      <a class="nav-item nav-link" href="./pages/portfolio.html">Portfolio</a>
       <!-- <a class="nav-item nav-link" href="pages/portfolio.html#front-end">Front-End</a>
       <a class="nav-item nav-link" href="pages/portfolio.html#back-end">Back-End</a>
       <a class="nav-item nav-link" href="pages/portfolio.html#product-mgmt">Product Management</a>
@@ -81,63 +81,59 @@
     <main class="container-fluid">
       <div class="row">
         <div class="col-4" id="homeSidebar">
-          <div class="container-fluid" id="homeImg">
-              <div class="row">
-                <div class="col-sm-12">
-                  <img src="assets/images/bitmoji-prof-pic.png" class="img-fluid" id="homeProfPic">
+          <div class="container">
+              <div class="container-fluid text-white" id="homeTitleNav">
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <img src="assets/images/bitmoji-prof-pic.png" class="img-fluid" id="sidebarPic">
+                      <h3 class="display-4">Field Palmer</h3>
+                      <h5>Developer&nbsp;&nbsp;&nbsp;|||&nbsp;&nbsp;&nbsp;Entrepreneur</h5>
+                      <nav class="nav nav-pills nav-fill" id="side-nav">
+                        <a class="nav-item nav-link px-0" href="pages/portfolio.html"><p>Projects</p></a>
+                        <a class="nav-item nav-link px-0" href="pages/about.html"><p>About</p></a>
+                        <a class="nav-item nav-link px-0" href="#"><p>Blog</p></a>
+                      </nav>
+                    </div>  
+                  </div>   
                 </div>
-              </div>
-            </div>
-      
-            <div class="container-fluid text-white" id="homeTitleNav">
-              <div class="row">
-                <div class="col-sm-12 text-center">
-                  <h3 class="display-4">Field Palmer</h3>
-                  <h5>Developer&nbsp;&nbsp;&nbsp;|||&nbsp;&nbsp;&nbsp;Entrepreneur</h5>
-                  <nav class="nav nav-pills nav-fill" id="side-nav">
-                    <a class="nav-item nav-link px-0" href="pages/portfolio.html"><p>Projects</p></a>
-                    <a class="nav-item nav-link px-0" href="pages/about.html"><p>About</p></a>
-                    <a class="nav-item nav-link px-0" href="#"><p>Blog</p></a>
-                  </nav>
-                </div>  
-              </div>   
-            </div>
-      
-            <div class="container-fluid mb-5" >
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="card" id="homeIntroCard">
-                    <div class="card-body">
-                      <p class="lead">
-                        Hello, my name is Field and this is my portfolio. Look around the site for more information on who I am and what I do.
-                        <hr>
-                        <a class="lead float-right" href="pages/about.html">Explore &rarr;</a>
-                      </p>
+          
+                <div class="container mb-5" >
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="card" id="sidebarCard">
+                        <div class="card-body">
+                          <p class="">
+                            Hello, my name is Field and this is my portfolio. Look around the site for more information on who I am and what I do.
+                            <hr>
+                            <a class="lead float-right" href="pages/about.html">Explore &rarr;</a>
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+            </div>
+            
+          </div> 
+          
+          <div class="col-8 p-0" id="homeContent">
+            <a href="pages/portfolio.html">
+              <div class="jumbtron p-4 homeFeature" id="homeFront">
+                <h1 class="display-2">Front-End</h1>
               </div>
-            </div>
+            </a>
+            <a href="pages/portfolio.html">
+              <div class="jumbtron p-4 homeFeature" id="homeBack">
+                <h1 class="display-2">Back-End</h1>
+              </div>
+            </a>
+            <a href="pages/portfolio.html">
+              <div class="jumbtron p-4 homeFeature" id="homeDesign">
+                <h1 class="display-2">Product Management</h1>
+              </div>
+            </a>
+  
         </div>
-        <div class="col-8 p-0" id="homeContent">
-          <a href="pages/portfolio.html">
-            <div class="jumbtron homeFeature" id="homeFront">
-              <h1 class="display-1">Front-End</h1>
-            </div>
-          </a>
-          <a href="pages/portfolio.html">
-            <div class="jumbtron homeFeature" id="homeBack">
-              <h1 class="display-1">Back-End</h1>
-            </div>
-          </a>
-          <a href="pages/portfolio.html">
-            <div class="jumbtron homeFeature" id="homeDesign">
-              <h1 class="display-1">Product Management</h1>
-            </div>
-          </a>
-         
-        </div> 
-
       </div>
 
     </main>

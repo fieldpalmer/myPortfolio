@@ -8,6 +8,12 @@ html {
   background: rgb(0,31,63);
   background: linear-gradient(148deg, rgba(0,31,63,1) 0%, rgba(0,116,217,1) 50%, rgba(127,219,255,1) 75%);
   background-attachment: fixed;
+  height: 100vh;
+}
+
+#sidebarPic {
+  height: 200px;
+  margin: 20px;
 }
 
 #homeContent {
@@ -17,7 +23,11 @@ html {
 }
 
 .homeFeature {
-  height: 33%;
+  height: 32%;
+}
+
+.display-2 {
+  color: rgba(57, 255, 20);
 }
 
 #homeFront {
